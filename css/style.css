@@ -19,12 +19,6 @@ ul{
 	padding: 0;
 }
 
-hr{
-	color: #526c88;
-	background-color: #526c88;
-	border: #526c88;
-	height: 5px;
-}
 .row{
 	display: flex;
 }
@@ -47,6 +41,11 @@ hr{
     text-transform: uppercase;
     margin-top: 5px;
     font-weight: 600;
+}
+
+.small-text{
+	font-size: 1.2rem;
+	vertical-align: top; 
 }
 
 .highlight-text{
@@ -218,3 +217,316 @@ hr{
 	padding-top: 36px;
     padding-bottom: 11px;
 }
+
+.schedule{
+	background-color: #6783a3;
+}
+
+.schedule-header{
+	justify-content: space-between;	
+	padding: 30px;
+
+}
+
+.m-text{
+	font-size: 30px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	align-items: center;
+	padding: 10px 0;
+	font-size: 1.3rem;
+}
+
+.schedule-header{
+	border-bottom: 5px solid #6f8cae;
+}
+
+.schedule-header .fa-chevron-down{
+	font-size: 1.5rem;
+}
+
+.schedule-graphic{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.schedule-times{
+	width: 8%;
+}
+
+
+.schedule-time{
+	margin: 10px 0;
+}
+
+
+.to-does{
+	width: 88%;
+}
+
+.to-do{
+	display: flex;
+	justify-content: space-between;
+	margin: 9px 0;
+	border-bottom: 2px solid #526c88;
+}
+.to-do:first-child{
+	border-bottom: 3px solid #526c88;
+}
+
+.to-do:last-child{
+	border: none;
+}
+
+.vertical-image{
+	background-image: url(../img/vimage.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    width: 4%;
+    margin-right: 1%;
+}
+
+.randezvous-approach{
+	background-color: #83a0c6;
+	border-top: 3px solid #577098;
+	font-size: 1.3rem;
+}
+
+.randezvous{
+	width: 60%;
+	padding: 15px;
+}
+
+.approach{
+	width: 40%;
+	border: #577098;
+	padding: 15px;
+	border-left: 3px solid #577098;
+}
+
+.schedule-padding{
+	padding: 15px;
+	background-color: #6783a3;
+	padding-bottom: 0;
+}
+
+.schedule-hour{
+	width: 100%;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+.schedule-hour td{
+	width: 10%;
+	border: 2px solid #577098;
+	border-left: none;
+	position: relative;
+	padding: 4px;
+}
+
+.schedule-hour td:after{
+	display: block;
+	content: "";
+	position: absolute;
+	width: 80%;
+	height: 75%;
+	background-color: #97b6db;
+	top: 3px;
+}
+
+.schedule-hour td:first-child:after {
+	display: none;
+}
+
+.schedule-hour tr:nth-child(2) td:nth-child(2):after{
+	width: 40%;
+	left: 20%;
+}
+
+.schedule-hour tr:nth-child(3) td:nth-child(3):after{
+	width: 50%;
+	left: 30%;
+}
+
+
+.schedule-hour tr:nth-child(1) td:after{
+	width: 15%;
+	left: 20%;
+}
+
+.schedule-hour tr:nth-child(1) td:nth-child(4):after,
+.schedule-hour tr:nth-child(1) td:nth-child(9):after,
+.schedule-hour tr:nth-child(1) td:nth-child(9):after,
+.schedule-hour tr:nth-child(5) td:nth-child(2):after,
+.schedule-hour tr:nth-child(5) td:nth-child(1):after,
+.schedule-hour tr:nth-child(5) td:nth-child(5):after,
+.schedule-hour tr:nth-child(6) td:nth-child(9):after,
+.schedule-hour tr:nth-child(6) td:nth-child(8):after,
+.schedule-hour tr:nth-child(6) td:nth-child(4):after,
+.schedule-hour tr:nth-child(6) td:nth-child(5):after,
+.schedule-hour tr:nth-child(6) td:nth-child(6):after,
+.schedule-hour tr:nth-child(6) td:nth-child(2):after,
+.schedule-hour tr:nth-child(2) td:nth-child(8):after,
+.schedule-hour tr:nth-child(3) td:nth-child(2):after,
+.schedule-hour tr:nth-child(4) td:nth-child(3):after,
+.schedule-hour tr:nth-child(4) td:nth-child(7):after,
+.schedule-hour tr:nth-child(4) td:nth-child(10):after,
+.schedule-hour tr:nth-child(6) td:nth-child(2):after,
+.schedule-hour tr:nth-child(6) td:nth-child(2):after,
+.schedule-hour tr:nth-child(6) td:nth-child(10):after,
+.schedule-hour tr:nth-child(5) td:nth-child(10):after,
+.schedule-hour tr:nth-child(4) td:nth-child(4):after,
+.schedule-hour tr:nth-child(4) td:nth-child(6):after,
+.schedule-hour tr:nth-child(6) td:nth-child(3):after{
+
+	display: none;
+}
+
+.schedule-hour tr:nth-child(5) td:nth-child(4):after,
+.schedule-hour tr:nth-child(5) td:nth-child(6):after,
+.schedule-hour tr:nth-child(5) td:nth-child(7):after,
+.schedule-hour tr:nth-child(5) td:nth-child(8):after,
+.schedule-hour tr:nth-child(5) td:nth-child(9):after{
+	width: 8%;
+	left: 40%;
+}
+
+.schedule-hour tr:nth-child(6) td:nth-child(7):after{
+	width: 30%;
+	left: 20%;
+}
+
+.schedule-hour tr:nth-child(2) td:nth-child(4):after,
+.schedule-hour tr:nth-child(2) td:nth-child(6):after,
+.schedule-hour tr:nth-child(2) td:nth-child(7):after{
+	width: 35%;
+	left: 60%;
+}
+
+.schedule-hour tr:nth-child(2) td:nth-child(3):after,
+.schedule-hour tr:nth-child(2) td:nth-child(5):after{
+	width: 30%;
+	left: 20%;
+}
+
+.schedule-hour tr:nth-child(2) td:nth-child(10):after{
+	width: 70%;
+	left: 10%;
+}
+
+.schedule-hour tr:nth-child(3) td:nth-child(5):after,
+.schedule-hour tr:nth-child(3) td:nth-child(6):after{
+	width: 55%;
+	left: 10%;
+}
+
+.schedule-hour tr:nth-child(3) td:nth-child(7):after,
+.schedule-hour tr:nth-child(3) td:nth-child(9):after{
+	width: 80%;
+	left: 20%;
+}
+
+.schedule-hour tr:nth-child(3) td:nth-child(8):after{
+	width: 40%;
+	left: 0;
+}
+
+.schedule-hour tr:nth-child(2) td:nth-child(4):after{
+	width: 40%;
+	left: 20%;
+	background-color: #a2edf2;
+}
+
+.schedule-line{
+	position: relative;
+}
+
+.schedule-line:after{
+	position: absolute;
+	content: "";
+	background-color: #a2edf2;
+	width: 162px;
+	height: 2px;
+	top: 50%;
+	bottom: 20%;
+	right: 58vw;
+	transform: rotate(90deg)
+	
+}
+
+.time-lines{
+	display: flex;
+	justify-content: space-between;
+	background-color: #6f8bac;
+
+}
+
+.time-line{
+	width: 8%;
+	height: 10%;
+}
+
+.time-line:nth-child(1){
+	background-color: #6783a3;
+}
+
+.simple3{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2px;
+	background-color: #83a0c6;
+}
+
+.simple2{
+	width: 77%;
+	height: 3vh;
+	background-color: #83a0c6;
+}
+
+.simple3-highlight{
+	height: 3vh;
+	width: 23%;
+	background-color: #a2edf2;
+}
+
+.all-systems{
+	background-color: #83a0c6;
+	border: 2px solid #6f8cae;
+	padding: 20px;
+}
+
+.life-indicators{
+	justify-content: space-between;
+}
+
+.life-indicator{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20%;
+	height: 20%;
+	border: 2px solid #5d7695;
+	background-image: linear-gradient(to left top, #536d89, #5d7796, #6881a2, #738caf, #7f96bc);
+	padding: 35px;
+}
+
+.life-indicator-number{
+	font-size: 3.3rem;
+	margin: 2vh 0;
+}
+
+.life-indicator-graphic:nth-child(1){
+	vertical-align: top;
+}
+
+/*.life-indicator-graphic:nth-child(1),
+.life-indicator-graphic:nth-child(2){
+	background-image: url(../img/line.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}*/
